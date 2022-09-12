@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3"
+    android:background="@drawable/fondo2">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center|top"
+        android:text="Observa a tu mascota y regresa a darle cuidados"
+        android:textColor="#FFEB3B"
+        android:textSize="40sp"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:src="@drawable/mascota"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:id="@+id/regresar1"
+        android:layout_width="147dp"
+        android:layout_height="80dp"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="50dp"
+        android:backgroundTint="#63FFEB3B"
+        android:paddingHorizontal="30dp"
+        android:text="Regresar" />
+</FrameLayout>

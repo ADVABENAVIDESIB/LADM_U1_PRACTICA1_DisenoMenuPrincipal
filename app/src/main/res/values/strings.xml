@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Practica1_DiseñoMenuPrincipal</string>
+    <array name="opcionesmenuprincipal">
+        <item>Mira que tipo de mascota es</item>
+        <item>Dale de comer</item>
+        <item>Hacealo</item>
+        <item>Dale horas de sueño</item>
+        <item>Salir</item>
+    </array>
+</resources>

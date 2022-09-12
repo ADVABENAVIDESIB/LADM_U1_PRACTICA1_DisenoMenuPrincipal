@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:orientation="vertical"
+    android:background="@drawable/fondo2">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Menu Principal"
+        android:textAlignment="center"
+        android:textColor="#FFEB3B"
+        android:textSize="40sp"
+        android:textStyle="italic"
+        android:layout_marginBottom="50dp"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="400dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/menu1"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:backgroundTint="#63FFEB3B"
+                android:text="Mira que tipo de mascota es"
+                android:textSize="15sp"
+                android:drawableLeft="@drawable/ic_baseline_preview_24"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:id="@+id/menu2"
+                android:text="Dale de comer"
+                android:backgroundTint="#63FFEB3B"
+                android:layout_marginTop="20dp"
+                android:textSize="15sp"
+                android:drawableLeft="@drawable/ic_baseline_food_bank_24"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:id="@+id/menu3"
+                android:text="Asealo"
+                android:textSize="15sp"
+                android:backgroundTint="#63FFEB3B"
+                android:layout_marginTop="20dp"
+
+                android:drawableLeft="@drawable/ic_baseline_bathtub_24"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:id="@+id/menu4"
+                android:text="Dale horas de sueño"
+                android:textSize="15sp"
+                android:backgroundTint="#63FFEB3B"
+                android:layout_marginTop="20dp"
+                android:drawableLeft="@drawable/ic_baseline_airline_seat_individual_suite_24"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:id="@+id/menu5"
+                android:text="Pantalla inicial"
+                android:textSize="15sp"
+                android:backgroundTint="#63FFEB3B"
+                android:layout_marginTop="20dp"
+                android:drawableLeft="@drawable/ic_baseline_exit_to_app_24"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

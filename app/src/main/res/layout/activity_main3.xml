@@ -5,13 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity3"
-    android:background="@drawable/fondo2">
+    android:background="@drawable/acti3">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_gravity="center|top"
         android:text="Observa a tu mascota y regresa a darle cuidados"
+        android:textAlignment="center"
         android:textColor="#FFEB3B"
         android:textSize="40sp"/>
     <ImageView

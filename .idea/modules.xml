@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/LADM_U1_Practica1_DiseñoMenuPrincipal.iml" filepath="$PROJECT_DIR$/.idea/modules/LADM_U1_Practica1_DiseñoMenuPrincipal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/LADM_U1_Practica1_DiseñoMenuPrincipal.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/LADM_U1_Practica1_DiseñoMenuPrincipal.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/LADM_U1_Practica1_DiseñoMenuPrincipal.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/LADM_U1_Practica1_DiseñoMenuPrincipal.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/LADM_U1_Practica1_DiseñoMenuPrincipal.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/LADM_U1_Practica1_DiseñoMenuPrincipal.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/LADM_U1_Practica1_DiseñoMenuPrincipal.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/LADM_U1_Practica1_DiseñoMenuPrincipal.app.unitTest.iml" />
+    </modules>
+  </component>
+</project>
